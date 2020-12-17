@@ -1,0 +1,45 @@
+#loginContainer{
+    display: flex;
+    justify-content: center;
+    vertical-align: center !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 20rem;
+}
+
+#loginForm{
+    width:fit-content;
+    border: 2px solid black;
+    box-shadow: .4rem .5rem .7rem 1rem gray;
+    text-align: center;
+    padding:2rem;
+}
+
+#loginForm label{
+    width:150px;
+    font-weight: bold;
+}
+
+#loginForm input{
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: .1rem .1rem .4rem .2rem gray;
+    padding: 2px;
+    text-align: center;
+}
+
+#loginForm #loginButton{
+    width: fit-content;
+    margin-top: 2rem;
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+#loginButton:hover{
+    font-size:1.3rem;
+    transition: all .5s;
+}

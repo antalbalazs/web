@@ -1,0 +1,51 @@
+#newGameFormContainer{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 4rem;
+}
+
+#newGameForm{
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 2rem;
+    box-shadow: .75rem .75rem .5rem .5rem darkgray;
+}
+
+#newGameForm label{
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 1rem;
+    width: 200px;
+    text-decoration: underline;
+}
+
+#newGameForm input{
+    width: 200px;
+}
+
+input#submitNewGameButton, #emptyForm{
+    width: auto;
+    background-color: darkgray;
+    border: 2px solid red;
+    color: purple;
+    font-weight: bold;
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size:1.5rem;
+    padding: .5rem .5rem;
+    border-radius: 80%;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem grey;
+}
+
+
+#emptyForm{
+    padding: 1rem .5rem;
+}
+
+input#submitNewGameButton:hover, #emptyForm:hover{
+    font-size: 2rem;
+    padding: 1.25rem .75rem;
+    transition: all 0.5s;
+}
