@@ -135,6 +135,10 @@ export class Game extends Component {
         localStorage.removeItem('token')
     }
 
+    emptyForm(){
+        document.getElementById("newGameForm").reset();
+    }
+
     render() {
         return (
             <div>
